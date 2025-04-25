@@ -71,7 +71,7 @@ loader.load(
     function updateRobotScale() {
       const screenWidth = window.innerWidth;
       const baseScale = screenWidth / 1440;
-      robot.scale.set(baseScale * 0.08, baseScale * 0.05, baseScale * 0.05);
+      robot.scale.set(baseScale * 0.08, baseScale && 0.05, baseScale * 0.05);
     }
 
     updateRobotScale();
