@@ -17,6 +17,32 @@ nav {
  z-index: -1;
 }
 
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+#progress-bar {
+  width: 0;
+  height:0.5rem;
+  background-color: lime;
+  transition: width 0.3s ease;
+}
+
+#loading-text {
+  color: white;
+  margin-top: 10px;
+}
+
 canvas { /* particles canvas position settings and index, sets the scene */
   position: absolute;
   z-index: 0 !important;
