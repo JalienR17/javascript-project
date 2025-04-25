@@ -1,0 +1,30 @@
+#image-article {
+  position: absolute;
+  top: 86%;
+}
+
+@media (min-width: 320px) and (max-width: 748px) {
+  #image-article {
+    display: none !important;
+  }
+}
+
+@media (min-width: 748px) and (max-width: 1000px) {
+  #image-article {
+    width: 95% !important;
+    top: 63rem !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1430px) {
+  #image-article {
+    top: 41rem !important;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1199px) {
+  #image-article {
+    top: 45rem !important;
+    width: 50% !important;
+  }
+}

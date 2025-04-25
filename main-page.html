@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NASA Explorer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main-style.css">
+    <script type="importmap">
+     {
+       "imports": {
+       "three": "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js",
+       "GLTFLoader": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/loaders/GLTFLoader.js",
+       "RGBELoader": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/loaders/RGBELoader.js"
+       }
+     }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js" defer></script>
+    <script type="module" src="javascript/main-javascript.js" defer></script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="main-page.html">NASA Explorer</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="main-page.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact-form.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registration.html">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main id="particles-js" class="flex-grow-1">
+    <section class="container">
+       <img src="images/logo.png" alt="NASA Explorer Logo" id="logo"  class="img-fluid" style="max-width: 9.5rem;">
+    </section>
+</main>
+<footer class="bg-dark text-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="mb-0 ">&copy; 2025 NASA Explorer. All rights reserved.</p>
+      </div>
+      <div class="col-md-6 text-md-end z-1">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item"><a href="contact-form.html" class="text-light text-decoration-none">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>
