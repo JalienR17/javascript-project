@@ -125,5 +125,3 @@ if (synth.onvoiceschanged !== undefined) {
   delayedSpeak();
 }
 
-renderer.setPixelRatio(window.devicePixelRatio);
-renderer.shadowMap.enabled = true;

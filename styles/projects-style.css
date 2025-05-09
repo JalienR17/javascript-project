@@ -28,3 +28,13 @@
     width: 50% !important;
   }
 }
+
+@media (min-width: 300px) and (max-width: 800px) {
+   #footer {
+    display: flex !important;
+    flex-direction: row !important;
+    flex: 1 !important;
+    justify-content: center !important;
+    padding-left: 17%;
+  }
+}
