@@ -17,7 +17,7 @@ nav {
  z-index: -1;
 }
 
-@keyframes logo-spin {
+/* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -30,7 +30,7 @@ nav {
   #logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+} */
 
 #loading-screen {
   position: fixed;
